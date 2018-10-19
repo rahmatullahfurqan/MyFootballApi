@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:background="@color/transparan"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@color/transparan"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80sp"
+            android:src="@drawable/player"
+            android:layout_height="80sp"
+            android:id="@+id/playerBadge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/playerName"
+            android:layout_weight="4"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:id="@+id/playerPosistion"
+            android:layout_marginLeft="5sp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:gravity="center_vertical|end"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

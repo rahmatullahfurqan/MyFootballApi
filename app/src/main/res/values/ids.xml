@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="teamViewm" type="id" />
+    <item name="teamName" type="id" />
+    <item name="teamView" type="id" />
+</resources>

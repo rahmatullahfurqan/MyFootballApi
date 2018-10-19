@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/match"
+        android:enabled="true"
+        android:icon="@drawable/prev_event"
+        android:title="Match" />
+    <item
+        android:id="@+id/teams"
+        android:enabled="true"
+        android:icon="@drawable/team"
+        android:title="Team"/>
+    <item
+        android:id="@+id/favorite"
+        android:enabled="true"
+        android:icon="@drawable/button_favorite"
+        android:title="Favorite"/>
+
+</menu>
